@@ -12,7 +12,7 @@ public class Demo {
 	public String index() {
 		return "hello123!";
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(Demo.class, args);
 	}
