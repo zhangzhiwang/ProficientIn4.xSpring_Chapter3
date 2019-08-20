@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
-public class Demo {
-	@RequestMapping("/aaa")
+public class UserController {
+	@RequestMapping("/index")
 	public String index() {
 		return "hello123!";
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(Demo.class, args);
+		SpringApplication.run(UserController.class, args);
 	}
 }
